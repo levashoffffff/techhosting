@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHosting</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="containers">
+            <!--header_top_nav-->
+            <section class="header_top_nav">
+                <nav class="header_nav">
+                    <ul class="header_nav_list">
+                        <li class="header_nav_item">
+                            <a href="index.html" class="header_nav_link active">Главная</a>
+                        </li>
+                        <li class="header_nav_item">
+                            <a href="images/screen.jpg" class="header_nav_link" target="_blank">Пример страницы</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <div class="header_social">
+                    <ul class="header_social_list">
+                        <li class="header_social_item">
+                            <a href="#" class="header_social_link">
+                                <img src="images/rss.png" alt="rss">
+                            </a>
+                        </li>
+                        <li class="header_social_item">
+                            <a href="#" class="header_social_link">
+                                <img src="images/facebook.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="header_social_item">
+                            <a href="#" class="header_social_link">
+                                <img src="images/twitter.png" alt="twitter">
+                            </a>
+                        </li>
+                    </ul>
+        
+                    <form action="#" method="get">
+                        <input type="search" placeholder="Поиск">
+                        <button type="submit"><img src="images/search.gif" alt="search"></button>
+                    </form>
+                </div>
+            </section>
+
+            <!--MOBILE MENU-->
+            <div class="mobile_menu">
+                <nav class="navbar navbar-default">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile_menu" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="mobile_menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                            <li><a href="blog.html">Блог</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="flag"><img src="img/flag.jpg" alt=""></span>Социальные сети<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">RSS</a></li>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li role="separator" class="divider"></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="flag"><img src="img/flag.jpg" alt=""></span>Свежие записи<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Привет, мир!</a></li>
+                                    <li role="separator" class="divider"></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Свежие комментарии<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Мистер Wordpress к записи Привет, мир!</a></li>
+                                    <li role="separator" class="divider"></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Архивы<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Февраль 2013</a></li>
+                                    <li role="separator" class="divider"></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Мета<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Управление сайтом</a></li>
+                                    <li><a href="#">Выйти</a></li>
+                                    <li><a href="#">RSS записей</a></li>
+                                    <li><a href="#">RSS комментариев</a></li>
+                                    <li><a href="#">WordPress.org</a></li>
+                                    <li role="separator" class="divider"></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Теги<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">#Тег1</a></li>
+                                    <li><a href="#">#Тег2</a></li>
+                                    <li><a href="#">#Тег3</a></li>
+                                    <li role="separator" class="divider"></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Календарь<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="sidebar_calendar_content">
+                                            <div class="calendar-wrapper">
+                                                <button id="btnPrevMobile" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></button>
+                                                <button id="btnNextMobile" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></button>
+                                                <div id="divCalMobile"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <form action="#" method="get">
+                                    <input type="search" placeholder="Поиск">
+                                    <button type="submit"><img src="images/search.gif" alt="search"></button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </nav>
+            </div>
+            <!--/MOBILE MENU-->
+            <!--/header_top_nav-->
+
+            <!--site_name-->
+            <section class="site_name">
+                <h1 class="site_name_sup">TechHosting</h1>
+                <p class="site_name_sub">by themepix.com</p>
+            </section>
+            <!--/site_name-->
+
+            <!--header_bottom_nav-->
+            <section class="header_bottom_nav">
+                <nav class="header_bott_nav">
+                    <ul class="header_bott_nav_list">
+                        <li class="header_bott_nav_item">
+                            <a href="index.html" class="header_bot_nav_link">Главная</a>
+                        </li>
+                        <li class="header_bott_nav_item">
+                            <a href="blog.html" class="header_bot_nav_link">Блог</a>
+                        </li>
+                        <li class="header_bott_nav_item">
+                            <a href="contacts.html" class="header_bot_nav_link active">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <!--/header_bottom_nav-->
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="containers main_content">
+            <!--sidebar_left-->
+            <section class="sidebar_left">
+
+                <!--sidebart_search-->
+                <div class="sidebar_search">
+                    <form action="#" method="get">
+                        <input type="search" placeholder="Поиск">
+                        <button type="submit"><img src="images/search.gif" alt="search"></button>
+                    </form>
+                </div>
+                <!--/sidebar_search-->
+
+                <!--sidebar_posts-->
+                <div class="sidebar_posts">
+                    <div class="sidebar_posts_head">
+                        Свежие записи
+                    </div>
+                    <div class="sidebar_posts_content">
+                        <ul class="sidebar_posts_list">
+                            <li class="sidebar_posts_item">
+                                <a href="#" class="sidebar_posts_link">Привет, мир!</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/sidebar_posts-->
+
+                <!--sidebar_comments-->
+                <div class="sidebar_comments">
+                    <div class="sidebar_comments_head">
+                        Свежие комментарии
+                    </div>
+                    <div class="sidebar_comments_content">
+                        <ul class="sidebar_comments_list">
+                            <li class="sidebar_comments_item">
+                                <a href="#" class="sidebar_comments_link">Мистер Wordpress</a> к записи <a href="#" class="sidebar_comments_link">Привет, мир!</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/sidebar_commetns-->
+
+                <!--sidebar_history-->
+                <div class="sidebar_history">
+                    <div class="sidebar_history_head">
+                        Архивы
+                    </div>
+                    <div class="sidebar_history_content">
+                        <ul class="sidebar_history_list">
+                            <li class="sidebar_history_item">
+                                <a href="#" class="sidebar_history_link">Февраль 2013</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/sidebar_history-->
+
+                <!--sidebar_category-->
+                <div class="sidebar_category">
+                    <div class="sidebar_category_head">
+                        Рубрики
+                    </div>
+                    <div class="sidebar_category_content">
+                        <ul class="sidebar_category_list">
+                            <li class="sidebar_category_item">
+                                <a href="#" class="sidebar_category_link">Без рубрики</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/sidebar_category-->
+
+                <!--sidebar_meta-->
+                <div class="sidebar_meta">
+                    <div class="sidebar_meta_head">
+                        Мета
+                    </div>
+                    <div class="sidebar_meta_content">
+                        <ul class="sidebar_meta_list">
+                            <li class="sidebar_meta_item">
+                                <a href="#" class="sidebar_meta_link">Управление сайтом</a>
+                            </li>
+                            <li class="sidebar_meta_item">
+                                <a href="#" class="sidebar_meta_link">Выйти</a>
+                            </li>
+                            <li class="sidebar_meta_item">
+                                <a href="#" class="sidebar_meta_link">RSS записей</a>
+                            </li>
+                            <li class="sidebar_meta_item">
+                                <a href="#" class="sidebar_meta_link">RSS комментариев</a>
+                            </li>
+                            <li class="sidebar_meta_item">
+                                <a href="#" class="sidebar_meta_link">WordPress.org</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/sidebar_meta-->
+
+                <!--sidebar_tags left_side-->
+                <div class="sidebar_tags left_side">
+                    <div class="sidebar_tags_head">
+                        Теги
+                    </div>
+                    <div class="sidebar_tags_content">
+                        <ul class="sidebar_tags_list">
+                            <li class="sidebar_tags_item">
+                                <a href="#" class="sidebar_tags_link">#Тег1</a>
+                            </li>
+                            <li class="sidebar_tags_item">
+                                <a href="#" class="sidebar_tags_link">#Тег2</a>
+                            </li>
+                            <li class="sidebar_tags_item">
+                                <a href="#" class="sidebar_tags_link">#Тег3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/sidebar_tags left_side-->
+
+                <!--sidebar_calendar left_side-->
+                <div class="sidebar_calendar left_side">
+                    <div class="sidebar_calendar_head">
+                        Календарь
+                    </div>
+                    <div class="sidebar_calendar_content">
+                        <div class="calendar-wrapper">
+                            <button id="btnPrevLeft" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></button>
+                            <button id="btnNextLeft" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></button>
+                            <div id="divCalLeft"></div>
+                        </div>
+                    </div>
+                </div>
+                <!--/sidebar_calendar left_side-->
+
+                <!--/sidebar_category-->
+            </section>
+            <!--/sidebar_left-->
+
+            <section class="main_posts">
+                <div class="posts">
+
+                    <h3 class="posts_title">Страница Контактов</h3>  
+
+                </div>
+            </section>
+            <!--/main_posts-->
+
+            <!--sidebar_right-->
+            <section class="sidebar_right">
+
+                <!--sidebar_tags-->
+                <div class="sidebar_tags">
+                    <div class="sidebar_tags_head">
+                        Теги
+                    </div>
+                    <div class="sidebar_tags_content">
+                        <ul class="sidebar_tags_list">
+                            <li class="sidebar_tags_item">
+                                <a href="#" class="sidebar_tags_link">#Тег1</a>
+                            </li>
+                            <li class="sidebar_tags_item">
+                                <a href="#" class="sidebar_tags_link">#Тег2</a>
+                            </li>
+                            <li class="sidebar_tags_item">
+                                <a href="#" class="sidebar_tags_link">#Тег3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/sidebar_tags-->
+
+                <!--sidebar_history-->
+                <div class="sidebar_history">
+                    <div class="sidebar_history_head">
+                        Архивы
+                    </div>
+                    <div class="sidebar_history_content">
+                        <ul class="sidebar_history_list">
+                            <li class="sidebar_history_item">
+                                <a href="#" class="sidebar_history_link">Февраль 2013</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/sidebar_history-->
+
+                <!--sidebar_calendar-->
+                <div class="sidebar_calendar">
+                    <div class="sidebar_calendar_head">
+                        Календарь
+                    </div>
+                    <div class="sidebar_calendar_content">
+                        <div class="calendar-wrapper">
+                            <button id="btnPrev" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></button>
+                            <button id="btnNext" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></button>
+                            <div id="divCal"></div>
+                        </div>
+                    </div>
+                </div>
+                <!--/sidebar_calendar-->
+            </section>
+            <!--/sidebar_right-->
+        </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="containers">
+            <div class="copyright">
+                Все права защищены. &copy; <strong>by levashoff</strong>
+            </div>
+        </div>
+    </footer>
+    <!--/FOOTER-->
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function(){
+
+        $('.search').on('click', function(){
+            $('.main-menu .navbar-form').slideToggle();
+        });
+
+});
+</script>
+</body>
+</html>
